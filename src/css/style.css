@@ -37,9 +37,10 @@ body {
 }
 
 .titulo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 16px;
     color: var(--branco);
+    
 }
 
 .lista-item {
@@ -51,21 +52,17 @@ body {
     min-height: 4rem;
     align-content: center;
     text-align: center;
-    padding: 8px 44px;
+    padding: 8px;
     color: var(--branco);
     font-weight: bold;
     border-radius: 2rem;
-    margin-bottom: 1rem;
+    
     background-color: transparent;
     border: 1 solid var(--rosa-forte);
-    /*background: url(../img/img-link-site.png);*/
     transition: all 0.3s ease;
 }
 
 .lista-link:hover {
-    /*background-color: var(--branco);
-    border: 2px solid var(--rosa-forte);
-    color: var(--rosa-forte);*/
     transform: scale(1.2);
 }
 
@@ -79,4 +76,23 @@ body {
 
 .lista-link span {
     width: 200px;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    
+    color: var(--branco);
+}
+
+footer a {
+    color: var(--rosa-claro);
+}
+
+@media screen and (max-width: 768px) {
+    
+    .titulo {
+        font-size: 1.5rem;
+    }
+
 }
